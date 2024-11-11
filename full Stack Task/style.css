@@ -1,0 +1,39 @@
+body {
+      background-color: #f8f9fa;
+}
+
+h1 {
+      font-family: 'Arial', sans-serif;
+      color: #343a40;
+}
+
+.table {
+      margin: 0 auto;
+      width: 100%;
+      max-width: 800px;
+}
+
+.timetable {
+      text-align: center;
+}
+
+.timetable-cell {
+      cursor: pointer;
+      background-color: #e9ecef;
+      transition: background-color 0.3s, transform 0.2s;
+}
+
+.timetable-cell:hover {
+      background-color: #17a2b8;
+      color: white;
+      transform: scale(1.05);
+}
+
+.table th {
+      background-color: #007bff;
+      color: white;
+}
+
+.table td {
+      height: 100px;
+}

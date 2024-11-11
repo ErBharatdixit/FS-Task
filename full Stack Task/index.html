@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Class Timetable</title>
+      <link rel="stylesheet" href="bootstrap.min.css">
+      <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+      <div class="container mt-5">
+            <h1 class="text-center">Class Timetable</h1>
+            <div class="table-responsive mt-4">
+                  <table class="table table-bordered timetable">
+                        <thead>
+                              <tr>
+                                    <td colspan="6">
+                                          <h1>timetable</h1>
+                                    </td>
+                              </tr>
+                              <tr>
+                                    <th>Time</th>
+                                    <th>Mon</th>
+                                    <th>Tue</th>
+                                    <th>Wed</th>
+                                    <th>Thurs</th>
+                                    <th>Fri</th>
+                              </tr>
+                        </thead>
+                        <tbody>
+                              <tr>
+                                    <td>9:00 AM</td>
+                                    <td class="timetable-cell" onclick="location.href='teacher.html?teacher=teacherA'">
+                                          Science<br>Teacher A</td>
+                                    <td class="timetable-cell" onclick="location.href='teacher.html?teacher=teacherB'">
+                                          Maths<br>Teacher B</td>
+                                    <td class="timetable-cell" onclick="location.href='teacher.html?teacher=teacherA'">
+                                          Science<br>Teacher A</td>
+                                    <td class="timetable-cell" onclick="location.href='teacher.html?teacher=teacherB'">
+                                          Maths<br>Teacher B</td>
+                                    <td class="timetable-cell" onclick="location.href='teacher.html?teacher=teacherC'">
+                                          Arts<br>Teacher C</td>
+                              </tr>
+                              <tr>
+                                    <td>10:00 AM</td>
+                                    <td class="timetable-cell" onclick="location.href='teacher.html?teacher=teacherD'">
+                                          Social<br>Teacher D</td>
+                                    <td class="timetable-cell" onclick="location.href='teacher.html?teacher=teacherE'">
+                                          Hindi<br>Teacher E</td>
+                                    <td class="timetable-cell" onclick="location.href='teacher.html?teacher=teacherF'">
+                                          English<br>Teacher F</td>
+                                    <td class="timetable-cell" onclick="location.href='teacher.html?teacher=teacherD'">
+                                          Social<br>Teacher D</td>
+                                    <td class="timetable-cell" onclick="location.href='teacher.html?teacher=teacherG'">
+                                          Sports<br>Teacher G</td>
+                              </tr>
+                              <tr>
+                                    <td>11:00 AM</td>
+                                    <td colspan="6">
+                                          <h1>Lunch</h1>
+                                    </td>
+                              </tr>
+                              <tr>
+                                    <td>12:00 PM</td>
+                                    <td class="timetable-cell" onclick="location.href='teacher.html?teacher=teacherA'">
+                                          Science<br> Teacher A
+                                    </td>
+                                    <td class="timetable-cell" onclick="location.href='teacher.html?teacher=teacherB'">
+                                          Maths<br> Teacher B
+                                    </td>
+                                    <td class="timetable-cell" onclick="location.href='teacher.html?teacher=teacherA'">
+                                          Science<br> Teacher A
+                                    </td>
+                                    <td class="timetable-cell" onclick="location.href='teacher.html?teacher=teacherB'">
+                                          Maths<br> Teacher B
+                                    </td>
+                                    <td rowspan="2" class="timetable-cell"
+                                          onclick="location.href='teacher.html?teacher=teacherH'">
+                                          Project<br> Teacher H
+                                    </td>
+                              </tr>
+                              <tr>
+                                    <td>1:00 PM</td>
+                                    <td class="timetable-cell" onclick="location.href='teacher.html?teacher=teacherD'">
+                                          Social<br>Teacher D</td>
+                                    <td class="timetable-cell" onclick="location.href='teacher.html?teacher=teacherE'">
+                                          Hindi<br>Teacher E</td>
+                                    <td class="timetable-cell" onclick="location.href='teacher.html?teacher=teacherF'">
+                                          English<br>Teacher F</td>
+                                    <td class="timetable-cell" onclick="location.href='teacher.html?teacher=teacherG'">
+                                          Sports<br>Teacher G</td>
+                              </tr>
+                        </tbody>
+                  </table>
+            </div>
+      </div>
+      <script src="script.js"></script>
+</body>
+
+</html>
